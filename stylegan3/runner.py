@@ -7,7 +7,7 @@ import os
 
 GENERAR_IMGS = 25
 ZIP = True
-COMMAND="docker run --gpus all -it --rm -v D:\REPOS\stylegan3:/scratch --workdir /scratch -e HOME=/scratch stylegan3 python gen_images.py --outdir=out --trunc=1"
+COMMAND="docker run --gpus all -it --rm -v .\stylegan3:/scratch --workdir /scratch -e HOME=/scratch stylegan3 python gen_images.py --outdir=out --trunc=1"
 
 modelos = {
     "gatos": {

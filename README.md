@@ -13,4 +13,4 @@ El repositorio consta de dos carpetas principales:
 
 - La primera contiene el código que he necesitado para poner en marcha la [DCGAN](https://arxiv.org/abs/1511.06434) donde he utilizado como referencia la documentación de PyTorch [DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html#introduction).
 
-- La segunda contiene el código de [Alias-Free GAN](https://arxiv.org/abs/2106.12423), en este caso está extraído de su [repositorio](https://github.com/NVlabs/stylegan3).
+- La segunda contiene el código de [Alias-Free GAN](https://arxiv.org/abs/2106.12423), en este caso está extraído de su [repositorio](https://github.com/NVlabs/stylegan3) y contiene un scipt python que ejecuta su contenido para generar imágenes de forma automática.

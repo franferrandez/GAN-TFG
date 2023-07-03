@@ -16,13 +16,13 @@ El repositorio consta de dos carpetas principales:
 - La segunda contiene el código de [Alias-Free GAN](https://arxiv.org/abs/2106.12423), en este caso está extraído de su [repositorio](https://github.com/NVlabs/stylegan3) y contiene un scipt python que ejecuta su contenido para generar imágenes de forma automática.
 
 
-  ## Ejecución
+## Ejecución
 
-  El código de la DCGAN es un documento Google Colaboratory donde lo único que necesitamos para poder ejecutarlo es descargar el dataset de [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) Align&Cropped Images y extraer el zip dentro de una carpeta llamada data/. Las imágenes deberán estar en data/img_align_celeba/.
+El código de la DCGAN es un documento Google Colaboratory donde lo único que necesitamos para poder ejecutarlo es descargar el dataset de [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) Align&Cropped Images y extraer el zip dentro de una carpeta llamada data/. Las imágenes deberán estar en data/img_align_celeba/.
 
-  El código de StyleGAN3 contiene un script en Python llamado runner.py que genera una tanda de imágenes, las que hemos utilizado para el estudio.
+El código de StyleGAN3 contiene un script en Python llamado runner.py que genera una tanda de imágenes, las que hemos utilizado para el estudio.
 
 
-  ## Dependencias
+## Dependencias
   - DCGAN: Python3 y CUDA 11.8
   - StyleGAN3: En nuestro caso hemos necesitado GCC, Docker, CUDA toolkit container y CONDA porque hemos generado las imágenes mediante Docker, pero a continuación tenemos su [documentación](https://github.com/franferrandez/GAN-TFG/tree/master/stylegan3#readme).
